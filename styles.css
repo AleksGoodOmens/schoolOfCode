@@ -106,14 +106,19 @@ body {
   padding: 5vmin;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   gap: 4vmin;
+}
+
+.product-details-container h2 {
+	font-weight: bold;
 }
 
 .company-category {
   font-size: 0.7rem;
   color: var(--orange);
   letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .product-description {
@@ -157,16 +162,17 @@ body {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
-  background-color: navy;
+  background-color: #FF7D1B;
   font-weight: 700;
   font-size: 1rem;
   color: var(--white);
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   border-radius: 2vmin;
   padding: 2vh;
+	margin-top: auto;
 }
 
 .add-to-cart img {
